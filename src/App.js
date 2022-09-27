@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     path: "/list",
     element: <List />,
   },
-  {
+  {//path "list" and "article" are both components
     path: "/article",
     element: <Article />
   }
