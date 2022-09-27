@@ -15,6 +15,7 @@ function List(){
                     //react requires that every item needs a unique identifier
                     blurb={article.blurb}
                     date={article.publishedDate}
+                    id={article.id}
                     imageAlt={article.image.alt}
                     imageSrc={article.image.url}
                     title="Article Title"

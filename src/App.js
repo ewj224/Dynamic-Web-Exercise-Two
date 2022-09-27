@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <List />,
   },
   {//path "list" and "article" are both components
-    path: "/article",
+    path: "/article/:id",
     element: <Article />
   }
 ]);

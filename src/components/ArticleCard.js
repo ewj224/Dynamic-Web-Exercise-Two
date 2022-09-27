@@ -7,8 +7,11 @@ function ArticleCard(
     return(
         <div className="articleCard">
             <div className="articleCard--image">
-                <img src=""></img>
-            <p>hi</p>
+                <img src={imageSrc} alt={imageAlt}/>
+            </div>
+            <div className='articleCard--text'>
+                <h2>{title}</h2>
+
             </div>
         </div>
     )
